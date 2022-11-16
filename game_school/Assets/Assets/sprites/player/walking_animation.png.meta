@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 30796c85141178a4eae2bfff82cf329b
+guid: 2c909a9ebcb21d748bef3292a7a521b3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,23 +101,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spritecharacter_0
+      name: walking_animation_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a792c0e540c9b849ba01c9b7957cb85
-      internalID: -1272637014
+      spriteID: 399e89a63b159d345b7cf1c4a759faa8
+      internalID: 410240311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritecharacter_1
+      name: walking_animation_1
       rect:
         serializedVersion: 2
         x: 32
@@ -152,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6461189b6ed379f42ad200aeee811fe3
-      internalID: 1086009100
+      spriteID: c25be8be39ca9a8449c522ad580321a0
+      internalID: -1474881650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritecharacter_2
+      name: walking_animation_2
       rect:
         serializedVersion: 2
         x: 64
@@ -173,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a085a315b069dfd47aa84a332764fca8
-      internalID: 2080506584
+      spriteID: ce2988a1e19508b4cac27e0b2e59e83e
+      internalID: -647809476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritecharacter_3
+      name: walking_animation_3
       rect:
         serializedVersion: 2
         x: 96
@@ -194,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98a8018d92090854ebf6e8e9ca0bc8ff
-      internalID: -946879930
+      spriteID: 0190839ccfdb3e04fb15aedb75baad41
+      internalID: 766494576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritecharacter_4
+      name: walking_animation_4
       rect:
         serializedVersion: 2
         x: 128
@@ -215,8 +203,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c1acaaeb74cdf24e8877d7a8a4967fd
-      internalID: 1955927233
+      spriteID: f79159aef55b90c4fbe4ff1b3abde20d
+      internalID: -621631740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walking_animation_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bbca2c6365ca34594dc235c2adebb7
+      internalID: 859129800
       vertices: []
       indices: 
       edges: []
@@ -232,11 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spritecharacter_3: -946879930
-      spritecharacter_4: 1955927233
-      spritecharacter_1: 1086009100
-      spritecharacter_2: 2080506584
-      spritecharacter_0: -1272637014
+      walking_animation_0: 410240311
+      walking_animation_2: -647809476
+      walking_animation_5: 859129800
+      walking_animation_4: -621631740
+      walking_animation_3: 766494576
+      walking_animation_1: -1474881650
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
