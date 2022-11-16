@@ -1,2 +1,3 @@
 # game_school
-niet met meerder mensen tegelijk mee werken
+niet meerder mensen in dezelfde scene
+maak een nieuwe branch aan downie
