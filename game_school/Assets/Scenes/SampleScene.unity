@@ -433,6 +433,24 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 949116955}
   m_CeilingCheck: {fileID: 218394620}
   m_CrouchDisableCollider: {fileID: 0}
+  OnLandEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 786266411}
+        m_TargetAssemblyTypeName: playermovement, Assembly-CSharp
+        m_MethodName: onlanding
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnCrouchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &786266411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -446,6 +464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 786266410}
+  animator: {fileID: 786266412}
   runSpeed: 50
 --- !u!95 &786266412
 Animator:
