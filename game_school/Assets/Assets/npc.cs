@@ -51,7 +51,7 @@ public class npc : MonoBehaviour
 
     public void NextLine()
     {
-        if(index < dialogue.Lenght - 1)
+        if(index < dialogue.Length - 1)
         {
             index++;
             dialogueText.text = "";
