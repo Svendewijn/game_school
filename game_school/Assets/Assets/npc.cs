@@ -10,6 +10,7 @@ public class npc : MonoBehaviour
     public string[] dialogue;
     private int index;
 
+    public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
 
@@ -29,6 +30,11 @@ public class npc : MonoBehaviour
             }
 
 
+        }
+
+        if(dialogueText.text == dialogue[index])
+        {
+        contButton.SetActive(true);
         }
     }
 
@@ -51,6 +57,9 @@ public class npc : MonoBehaviour
 
     public void NextLine()
     {
+
+        contButton.SetActive(false);
+
         if(index < dialogue.Length - 1)
         {
             index++;
