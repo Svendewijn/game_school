@@ -59,6 +59,12 @@ public class playermovement : MonoBehaviour
         }
    		}
 
+		{
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+    	}
 	}
 
 	public void onlanding ()
