@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playermovement : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class playermovement : MonoBehaviour
 
 		animator.SetFloat("speed", Mathf.Abs(horizontalMove));
 
-		if (Input.GetButtonDown("Jump"))
+		if (Input.GetButtonDown("Jump") && jump == false)
 		{
 			jump = true;
 			animator.SetBool("isjumping", true);
@@ -36,6 +37,27 @@ public class playermovement : MonoBehaviour
 		{
 			crouch = false;
 		}
+
+		{
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            SceneManager.LoadScene("hub");
+        }
+   		}
+
+		{
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            SceneManager.LoadScene("level1");
+        }
+   		}
+
+		{
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            SceneManager.LoadScene("level2");
+        }
+   		}
 
 	}
 
