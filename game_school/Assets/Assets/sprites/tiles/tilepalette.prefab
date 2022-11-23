@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 68617119204205779}
   - component: {fileID: 4304988915227738256}
   m_Layer: 0
-  m_Name: super awersomes palte
+  m_Name: tilepalette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
