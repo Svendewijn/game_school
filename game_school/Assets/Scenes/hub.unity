@@ -1903,7 +1903,7 @@ MonoBehaviour:
   dialogueText: {fileID: 774001971}
   dialogue:
   - WELCOME ADVENTURER!
-  - FOLLOW THIS PATH!
+  - MY NAME IS MARK!
   contButton: {fileID: 932626546}
   wordSpeed: 0.06
   playerIsClose: 0
