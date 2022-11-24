@@ -41,21 +41,14 @@ public class playermovement : MonoBehaviour
 		{
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            SceneManager.LoadScene("hub");
+           SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
    		}
 
 		{
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            SceneManager.LoadScene("level1");
-        }
-   		}
-
-		{
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            SceneManager.LoadScene("level2");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
    		}
 
