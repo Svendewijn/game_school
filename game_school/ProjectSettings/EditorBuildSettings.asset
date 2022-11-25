@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ball.unity
     guid: a489d9e2646ea6546abdcb8de6f79a0a
+  - enabled: 1
+    path: Assets/Scenes/jiplevel.unity
+    guid: db153ccb20193bf438aaa260d04701f7
   m_configObjects: {}
