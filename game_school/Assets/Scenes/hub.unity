@@ -376,7 +376,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.6, y: 1.501, z: -10}
+  m_LocalPosition: {x: -8.984, y: 3.502, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -756,7 +756,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 786266404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.6, y: 1.501, z: 0}
+  m_LocalPosition: {x: -8.984, y: 3.502, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2286,7 +2286,8 @@ MonoBehaviour:
   dialogueText: {fileID: 774001971}
   dialogue:
   - WELCOME ADVENTURER!
-  - MY NAME IS MARK!
+  - IF YOU WANT TO START,
+  - GO TROUGH THIS PORTAL!
   contButton: {fileID: 932626546}
   wordSpeed: 0.06
   playerIsClose: 0
@@ -2373,7 +2374,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691973553}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.6, y: 1.501, z: -10}
+  m_LocalPosition: {x: -8.984, y: 3.502, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
