@@ -51,6 +51,12 @@ public class playermovement : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
    		}
+{
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+        }
+   		}
 
 		{
         if (Input.GetKey("escape"))
