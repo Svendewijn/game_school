@@ -64,6 +64,7 @@ public class playermovement : MonoBehaviour
             Application.Quit();
         }
     	}
+		
 	}
 
 	public void onlanding ()
