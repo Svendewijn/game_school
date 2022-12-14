@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class playermovement : MonoBehaviour
 {
 
+
+
 	public playercontroller2d controller;
 	public Animator animator;
 
@@ -65,6 +67,7 @@ public class playermovement : MonoBehaviour
             Application.Quit();
         }
     	}
+		
 		
 	}
 

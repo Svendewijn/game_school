@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class pain : MonoBehaviour
 {
-
 	public int maxHealth = 3;
 	public int currentHealth;
 
@@ -24,8 +24,12 @@ public class pain : MonoBehaviour
 		{
 			TakeDamage(1);
 		}
+	
+		if (currentHealth <= 0.1)
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+		}
     }
-
 	void TakeDamage(int damage)
 	{
 		currentHealth -= damage;
