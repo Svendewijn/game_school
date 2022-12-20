@@ -23,12 +23,18 @@ public class playercontroller2d : MonoBehaviour
     [Space]
 
     public UnityEvent OnLandEvent;
+    AudioSource source;
 
     [System.Serializable]
     public class BoolEvent : UnityEvent<bool> { }
 
     public BoolEvent OnCrouchEvent;
     private bool m_wasCrouching = false;
+
+       void Start()
+    {
+        source = GetComponent<AudioSource>();
+    }
 
     private void Awake()
     {
@@ -130,6 +136,7 @@ public class playercontroller2d : MonoBehaviour
             // Add a vertical force to the player.
             m_Grounded = false;
             m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+            source.Play();
         }
     }
 
