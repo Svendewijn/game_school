@@ -9,7 +9,7 @@ public class spikedamage : MonoBehaviour
 {
 	public bool playerIsClose;
     public int InvulnerabilityTime = 4;
-
+    AudioSource source;
 	public int maxHealth = 3;
 	public int currentHealth;
     private bool isTakingDamage = false; 
@@ -21,6 +21,7 @@ public class spikedamage : MonoBehaviour
     {
 		currentHealth = maxHealth;
 		healthBar.SetMaxHealth(maxHealth);
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -42,7 +43,7 @@ public class spikedamage : MonoBehaviour
 	void TakeDamage(int damage)
 	{
 		currentHealth -= damage;
-
+        source.Play();
 		healthBar.SetHealth(currentHealth);
 	}
 

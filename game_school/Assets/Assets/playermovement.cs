@@ -38,36 +38,7 @@ public class playermovement : MonoBehaviour
 		else if (Input.GetButtonUp("Crouch"))
 		{
 			crouch = false;
-		}
-
-		{
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-           SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-
-        }
-   		}
-
-		{
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
-   		}
-{
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
-        }
-   		}
-
-		{
-        if (Input.GetKey("escape"))
-        {
-            Application.Quit();
-        }
-    	}
-		
+		}		
 		
 	}
 
